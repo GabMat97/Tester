@@ -3,7 +3,7 @@ package company;
 public class Main {
     public static void main (String[] args) {
 
-        Fantasy fantasy = new Fantasy("Lord of the Rings", "Action");
+        Fantasy fantasy = new Fantasy("Lord of the Rings", "Fantasy");
         System.out.println("Title: " + fantasy.getTitle() + " and its genre is " + fantasy.getGenre());
 
         Action action = new Action("Die Hard", "Action");

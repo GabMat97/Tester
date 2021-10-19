@@ -4,8 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BiographyTest {
     @Test
-    public void testBiography() {
+    public void testBiographygetTitle() {
         Biography testBiography = new Biography ("Mein Kampf","Biography");
         assertEquals("Mein Kampf",testBiography.getTitle());
+    }
+
+    @Test
+    public void testBiographygetGenre() {
+        Biography testBiography = new Biography ("Mein Kampf","Biography");
+        assertEquals("Biography",testBiography.getGenre());
     }
 }

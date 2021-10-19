@@ -16,9 +16,9 @@ public abstract class LibraryItem {
 
 
     ////////////////Methods///////////////
-    public void book(){
-        System.out.println("I am a book");
-    }
+//    public void book(){
+//        System.out.println("I am a book");
+//    }
 
     public LibraryItem() {
 
